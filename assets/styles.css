@@ -7,7 +7,7 @@
 * {
     color: var(--light);
     font-family: 'Courier New', Courier, monospace;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }   
 
 body{
@@ -51,11 +51,30 @@ header nav ul li {
 
 section {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 20px;
+    border: 2em;
 }
 
 section ul {
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+section ul h1 {
+    float: left;
+    width: 15vw;
+    height: 100%;
+    border-right: 3px var(--light) groove;
+}
+
+section ul h1 p {
+    height: 100%;
+    width: 100%;
+    margin-left: 2em;
 }
 
 a {
@@ -69,14 +88,3 @@ p {
     font-size: 16px;
 }
 
-/* .topright {
-    flex;
-}
-
-.center {
-
-}
-
-.bottomleft {
-
-} */
