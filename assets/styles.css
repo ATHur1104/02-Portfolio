@@ -1,0 +1,12 @@
+* {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}   
+
+Body{
+    background-color: black;
+    display: flex;
+}
+body h1 {
+    
+}
