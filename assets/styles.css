@@ -17,24 +17,59 @@ body{
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
+    background-image: radial-gradient(
+        var(--mid) 0%,
+        var(--light) 100%);
+        size: 10vh 100vw;
 }
 
 header h1 {
+    display: inline-block;
     color: var(--dark);
-    background-image: radial-gradient(
-        var(--mid) 0%,
-        var(--light) 100%);;
-    justify-content: center;
-    border: groove 3px var(--mid);
-    border-radius: 5px;
     padding: 20px;
-    box-shadow: 1px 1px 8px var(--light);
+    font-size: 8vh;
+    margin-left: -.5em;
+    margin-top: -.75em;
 }
 
-.topright {
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 3vh;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+section {
+    display: flex;
+}
+
+section ul {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* .topright {
     flex;
 }
 
@@ -44,4 +79,4 @@ header h1 {
 
 .bottomleft {
 
-}
+} */
