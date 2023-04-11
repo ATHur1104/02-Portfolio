@@ -1,12 +1,47 @@
+:root {
+    --light: aliceblue;
+    --dark: rgb(25, 31, 35);
+    --mid: rgb(56, 145, 56); 
+}
+
 * {
-    color: aliceblue;
+    color: var(--light);
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: content-box;
 }   
 
-Body{
-    background-color: black;
-    display: flex;
+body{
+    background-image: linear-gradient(
+        var(--dark) 0%,
+        var(--mid) 100%);
 }
-body h1 {
-    
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: var(--dark);
+    background-image: radial-gradient(
+        var(--mid) 0%,
+        var(--light) 100%);;
+    justify-content: center;
+    border: groove 3px var(--mid);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 1px 8px var(--light);
+}
+
+.topright {
+    flex;
+}
+
+.center {
+
+}
+
+.bottomleft {
+
 }
