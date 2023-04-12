@@ -8,6 +8,8 @@
     * Using style sheets to control the location of objects on the webpage as well as setting attributes to objects to move and transform. Making the webpage viewable when changing screen size
 * GitHub
     * Using GitHub to push and pull projects.
+* VSCode
+    * Using VSCode with terminal extension to create proper files and editing files.
 ## Overview
 ![picture alt] ()
 Overview of Site (Picture of your working website)
