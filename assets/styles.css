@@ -21,14 +21,14 @@ header {
     background-image: radial-gradient(
         var(--mid) 0%,
         var(--light) 100%);
-        size: 10vh 100vw;
+    size: 5vh 100vw;
 }
 
 header h1 {
     display: inline-block;
     color: var(--dark);
     padding: 20px;
-    font-size: 8vh;
+    font-size: xx-large;
     margin-left: -.5em;
     margin-top: -.75em;
 }
@@ -37,7 +37,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-size: 3vh;
+    font-size: medium;
 }
 
 header nav ul {
@@ -58,6 +58,17 @@ header nav ul li {
     background: linear-gradient(135deg, var(--dark)
     25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, var(--mid) 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, var(--dark) 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg,var(--mid) 25%, var(--light) 25%) 0px 0/ 20px 20px;}
 
+div h1 {
+    background-color: var(--mid);
+    float: right;
+    width: fit-content;
+    background: linear-gradient(
+        98deg, var(--mid) 0%, var(--dark) 100%
+    );
+    border-style:ridge;
+}
+
+
 section {
     display: flex;
     flex-direction: row;
@@ -66,24 +77,82 @@ section {
     align-items: stretch;
     padding: 20px;
     border: 2em;
+    width: 100%;
+}
+
+a {
+    height: 50px;
+    width: 50px;
+    font-style: none;
+    color: var(--light);
+    display: inline;
+    font-size: large;
 }
 
 section ul {
     flex-wrap: wrap;
     flex-direction: row;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    width: 100vw;
 }
 
 section ul h1 {
     float: left;
     width: 15vw;
-    height: 100%;
-    border-right: 3px var(--light) groove;
+    height: 108%;
+    border-right: 3px var(--dark) solid;
+    text-align: right;
+    padding-right: 1em;
 }
 
-section ul h1 p {
-    height: 100%;
+section p {
+    height: fit-content;
     width: 100%;
-    margin-left: 2em;
+    padding-left: 1em;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.profilepic {
+    width: 65%;
+}
+
+.github {
+    width: 65vw;
+}
+
+img {
+    width: 33vw;
+}
+
+
+img:hover {
+    box-shadow: 0 5px 15px var(--light);
+    transform: rotateZ(35deg) scale(1.05);
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: var(--mid);
+    float: right;
+    width: fit-content;
+    background: linear-gradient(
+        98deg, var(--mid) 0%, var(--dark) 100%
+    );
+    border-style:ridge;
+}
+
+.text:hover {
+    box-shadow: 0 5px 15px var(--light);
 }
 
 a {
@@ -97,3 +166,12 @@ p {
     font-size: 16px;
 }
 
+/* Small Smarphone */
+@media screen and (max-width: 576px) {
+    section ul h1 {
+        font-size: medium;
+    }
+    header {
+        display: inline-block;
+    }
+}
