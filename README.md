@@ -11,9 +11,20 @@
 * VSCode
     * Using VSCode with terminal extension to create proper files and editing files.
 ## Overview
-![picture alt] ()
-Overview of Site (Picture of your working website)
-Video (Only if applicable, not relevant until after Project 1. This is for any apps that are backend-only)
-Summary (I would make a bullet list. I wrote what I did i.e. “Used CSS to create user-friendly and responsive design” yada yada)
-Resources Used (If you used any code from anywhere or got help from a specific article, link to it here. i.e. if a Stackoverflow page was particularly helpful!)
-Author Links (I just linked to my github profile, but you could link to LinkedIn or Twitter or wherever you are active)
+![picture alt](./assets/website.jpg "Website Snapshot")
+## Summary
+* Used CSS to create user-friendly and responsive design.
+    * Used CSS to make sure that the page is responsive at every screen size.
+    * Used CSS to style objects within the webpage.
+    * Used CSS to change and transform objects when hovering over the images.
+* Used HTML to structure the contents of the website
+    * Used anchors to link within the webpage.
+    * Used mailto and callto functions for contacts.
+    * Used anchor to create a download link to my resume.
+## Resources Used
+* [GitHub Markdown Cheatsheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md "GitHub markdown-cheatsheet")
+* [w3schools](https://www.w3schools.com/ "w3chools")
+* [css-tricks guide](https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png "Flex Box Diagram")
+* [cssgradient.io](https://cssgradient.io/ "css gradient")
+## Author Links
+[GitHub](https://github.com/ATHur1104 "Andrew's GitHub Page")
